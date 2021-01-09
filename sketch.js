@@ -14,7 +14,7 @@ function preload()
 }
 
 function setup() {
-	createCanvas(800, 700);
+	createCanvas(800, 300);
 
 
 	engine = Engine.create();
@@ -23,15 +23,15 @@ function setup() {
 	//Create the Bodies Here.
 	
 	//Making the paper ball
-	paper = new Paper(80,300,35);
+	paper = new Paper(80,0,35);
 
 	//Making the ground
-	ground = new Ground(400,650,800,20);
+	ground = new Ground(400,250,800,20);
 	
 	//making dustbin boxes 
-	box1 = new Box(550,555,20,130);
-	box2 = new Box(650,630,200,20);
-	box3 = new Box(750,555,20,130)
+	box1 = new Box(550,155,20,130);
+	box2 = new Box(650,230,200,20);
+	box3 = new Box(750,155,20,130)
 
 	Engine.run(engine);
   
