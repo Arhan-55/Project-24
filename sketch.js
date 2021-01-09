@@ -29,9 +29,9 @@ function setup() {
 	ground = new Ground(400,250,800,20);
 	
 	//making dustbin boxes 
-	box1 = new Box(550,155,20,130);
-	box2 = new Box(650,230,200,20);
-	box3 = new Box(750,155,20,130)
+	box1 = new Box(550,155,20,80);
+	box2 = new Box(650,230,150,20);
+	box3 = new Box(750,155,20,80)
 
 	Engine.run(engine);
   
