@@ -1,4 +1,3 @@
-
 const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
@@ -29,9 +28,9 @@ function setup() {
 	ground = new Ground(400,250,800,20);
 	
 	//making dustbin boxes 
-	box1 = new Box(550,155,20,80);
+	box1 = new Box(570,185,20,80);
 	box2 = new Box(650,230,150,20);
-	box3 = new Box(750,155,20,80)
+	box3 = new Box(730,185,20,80)
 
 	Engine.run(engine);
   
@@ -62,6 +61,5 @@ function keyPressed(){
 		Matter.Body.applyForce(paper.body,paper.body.position,{x:-50,y:-50})
 	}
 }
-
 
 
